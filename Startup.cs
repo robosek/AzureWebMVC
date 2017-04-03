@@ -30,7 +30,7 @@ namespace AzureWebAppMVC
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World from Azure! Release Candidate 1.0");
+                await context.Response.WriteAsync("Hello World from Azure! Release Candidate 2.0. Check if continous delivery works");
             });
         }
     }
